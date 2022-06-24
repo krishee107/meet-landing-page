@@ -1,0 +1,60 @@
+/* GENERAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+
+#padre{
+    display: grid;
+    font-family: 'Red Hat Display', sans-serif;
+}
+#logo{
+    justify-self: center;
+}
+
+
+/* CABECERA */
+
+#cabecera{
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    align-items: center;
+}
+
+.groupChat{
+    display: grid;
+    justify-self: center;
+}
+.groupChat__title{
+    font-weight: 900;
+    color:28283D;
+    font-size:  64px;
+    text-align: center;
+}
+.groupChat__text{
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+.groupChat__buttons{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    column-gap: 16px;
+    color:white;
+    font-weight: 900;
+    font-size: 16px;
+}
+.groupChat__buttons__download{
+    background-color: #4D96A9;
+    cursor: pointer;
+}
+.groupChat__buttons__whatis{
+    background-color: #855FB1;
+    cursor: pointer;
+}
+
+.cabecera__right{
+    justify-self: right;
+}
